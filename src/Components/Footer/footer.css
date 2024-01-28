@@ -1,0 +1,31 @@
+footer{
+    padding: 1rem;
+    background-color: black;
+    margin-top: 3rem;
+    text-align: center;
+    color: gray;
+
+}
+
+footer > button{
+    margin-top: 1rem;
+    min-width: 5rem;
+    height: 2rem;
+    background-color: black;
+    border: none;
+    border-radius: .2rem;
+    color: white;
+}
+
+footer > button:hover{
+    transform: scale(1.2);
+    background-color: white;
+    cursor: pointer;
+    color: black;
+}
+
+.copyright{
+    text-align: center;
+    background-color: white;
+    color: black;
+}

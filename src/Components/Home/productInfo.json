@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "name": "Air Jordan 1 Low",
+        "image": "https://shorturl.at/iqvBO",
+        "category": "Men's Shoes",
+        "price": 150,
+        "quantity": 1
+    },
+
+    {
+        "id": 2,
+        "name": "Jumpman MVP",
+        "image": "https://shorturl.at/eGOR0",
+        "category": "Men's Shoes",
+        "price": 215,
+        "quantity": 1
+
+    },
+
+    {
+        "id": 3,
+        "name": "Air Jordan 1 Low",
+        "image": "https://shorturl.at/BIS02",
+        "category": "Men's Shoes",
+        "price": 150,
+        "quantity": 1
+    },
+
+    {
+        "id": 4,
+        "name": "Air Jordan 1 Mid SE",
+        "image": "https://shorturl.at/mnzT5",
+        "category": "Men's Shoes",
+        "price": 175,
+        "quantity": 1
+    },
+
+    {
+        "id": 5,
+        "name": "Air Jordan 1 Retro High OG",
+        "image": "https://rb.gy/flc8nh",
+        "category": "Men's Shoes",
+        "price": 225,
+        "quantity": 1
+    },
+
+    {
+        "id": 6,
+        "name": "Jordan Stay Loyal 3",
+        "image": "https://rb.gy/px3lyv",
+        "category": "Men's Shoes",
+        "price": 150,
+        "quantity": 1
+    },
+
+    {
+        "id": 7,
+        "name": "Air Jordan 11 'Gratitude'",
+        "image": "https://rb.gy/2zjr6s",
+        "category": "Men's Shoes",
+        "price": 295,
+        "quantity": 1
+    },
+
+    {
+        "id": 8,
+        "name": "Air Jordan Legacy 312 Low",
+        "image": "https://rb.gy/cqrryo",
+        "category": "Men's Shoes",
+        "price": 185,
+        "quantity": 1
+    },
+
+    {
+        "id": 9,
+        "name": "Air Jordan 1 Zoom CMFT 2",
+        "image": "https://rb.gy/hpx1wi",
+        "category": "Men's Shoes",
+        "price": 190,
+        "quantity": 1
+    },
+
+    {
+        "id": 10,
+        "name": "Air Jordan 1 Mid",
+        "image": "https://rb.gy/xu5o9j",
+        "category": "Men's Shoes",
+        "price": 165,
+        "quantity": 1
+    },
+
+    {
+        "id": 11,
+        "name": "Air Jordan 1 Low SE",
+        "image": "https://rb.gy/zkyrdi",
+        "category": "Men's Shoes",
+        "price": 160,
+        "quantity": 1
+    },
+
+    {
+        "id": 12,
+        "name": "Air Jordan 1 Mid",
+        "image": "https://rb.gy/4zwi8x",
+        "category": "Men's Shoes",
+        "price": 165,
+        "quantity": 1
+    }
+]

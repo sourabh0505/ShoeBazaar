@@ -1,0 +1,34 @@
+.cartPage{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 4rem auto;
+    background-color: white;
+    padding: 3rem 0;
+}
+
+.mappedProducts{
+    display: flex;
+    flex-flow: column nowrap;
+    margin-bottom: 2rem;
+}
+
+.cartProductImage{
+    max-width: 500px;
+    max-height: 500px;
+    border-radius: .5rem;
+}
+
+.cartProductImage:hover{
+    transform: scale(1);
+}
+
+.cartProductCount{
+    display: flex;
+    flex-flow: row nowrap;
+    line-height: 4rem;
+}
+
+.cartProductData{
+    margin-left: 3rem;
+}

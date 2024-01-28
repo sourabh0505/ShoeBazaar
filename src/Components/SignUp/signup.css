@@ -1,0 +1,40 @@
+.SignUp{
+    text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 4rem;
+}
+
+input{
+    width: 40rem;
+    height: 2rem; 
+    border-radius: .2rem;
+    border: 1px solid black;
+    margin: .5rem;
+} 
+
+.user-info > h2{
+    margin-right: 33rem;
+}
+
+.signup-signin-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 8rem;
+}
+
+.submit > button{
+    margin-top: 1rem;
+    min-width: 8rem;
+    min-height: 3rem;
+    border: none;
+    border-radius: .2rem;
+    background-color: violet;
+    font-size: 1rem;
+}
+
+.submit > .gray{
+    color: #EAEAEA;
+    background-color: #676767;
+}
