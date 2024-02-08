@@ -32,3 +32,39 @@
 .cartProductData{
     margin-left: 3rem;
 }
+
+.cartCheckoutDiv{
+    display: flex;
+    flex-flow: column wrap;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.checkoutBtn{
+    min-height: 3rem;
+    background-color: blue;
+    border: none;
+    border-radius: .5rem;
+    color: white;
+}
+
+.removeBtn{
+    max-width: 6rem;
+    min-height: 2rem;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: .2rem;
+    margin-top: .5rem;
+}
+
+.removeBtn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.checkoutBtn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}

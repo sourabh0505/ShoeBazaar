@@ -10,11 +10,20 @@ import Footer from './Components/Footer/Footer';
 import ProductDetails from './Components/ProductDetails/ProductDetails';
 
 const App = () => {
+
+  const handleSignUp = (user) => {
+    console.log(user);
+  }
+
+  const handleSignIn = (user) => {
+    console.log(user);
+  }
+
   return (
     <Router>
       <Navbar/>
       <Routes>
-        <Route index path='/signup' element={<SignUp/>}></Route>
+        <Route index path='/signup' element={<SignUp onSignup={handleSignUp} onSignin={handleSignIn}/>}></Route>
         <Route path='/home' element={<Home/>}></Route>
         <Route path='/cart' element={<Cart/>}></Route>
         <Route path='/contact' element={<Contact/>}></Route>

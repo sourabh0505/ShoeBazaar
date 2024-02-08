@@ -1,13 +1,12 @@
 import React, { useState } from 'react'
 import './home.css'
 import data from './productInfo.json'
-import {Link} from 'react-router-dom'
 import {useSelector, useDispatch} from 'react-redux';
 import { addToCart } from '../Cart/cartSlice';
 
 function Home () {
 
-  const cartItems = useSelector((state) => state.cart.items)
+  const cartItems = useSelector((state) => state.cart.cartItems)
 
   const dispatch = useDispatch();
 

@@ -8,12 +8,10 @@ function Cart() {
 
   const dispatch = useDispatch();
 
-
   useEffect(() => {
       dispatch(getCartTotal());
   }, [cart])
   
-
 
   return (
     <div className='cartPage'>
@@ -29,6 +27,7 @@ function Cart() {
         ))}
       </div>
 
+      <div className="cartCheckoutDiv">
       <div className='cartProductCount'>
         <div className='cartProductDataInfo'>
           <h1>Summary</h1>
@@ -43,6 +42,9 @@ function Cart() {
           <h3>${cartAmount}</h3>
           <h3>Free</h3>
         </div>
+      </div>
+      
+      <button className='checkoutBtn'>Checkout</button>
       </div>
     </div>
   );
