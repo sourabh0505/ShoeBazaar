@@ -2,17 +2,22 @@
     display: flex;
     flex-flow: column nowrap;
     gap: 1rem;
+    margin: 0 1rem;
 }
 
 .searchBar{
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
+    width: 100%;
     margin: 1rem auto;
     align-items: center;
+    justify-content: center;
+    height: auto;
 }
 
 .searchBar > input{
-    max-width: 30rem;
+    height: 2rem;
+    width: 70%;
 }
 
 .shoeCards{
@@ -27,17 +32,19 @@
     flex-flow: column nowrap;
     border: 1px solid black;
     border-radius: .5rem;
-    min-width: 450px;
+    width: 450px;
     min-height: 650px;
     gap: 1rem;
+    box-shadow: 0 4px 8px rgba(12, 12, 12, 0.5);
 }
 
 .cardImage > img{
     display: block;
     margin: 1.5rem auto;
-    max-width: 400px;
-    min-height: 400px;
+    max-width: 90%;
+    min-height: auto;
     border-radius: .5rem;
+    transition: transform 0.3s ease;
 }
 
 .dataCardInfo{
@@ -54,7 +61,7 @@
     min-height: 3rem;
     border-radius: .2rem;
     background-color: transparent;
-    margin: 0 1.5rem;
+    margin: 0rem 1.5rem 1rem;
 }
 
 .shoeCards:hover{
@@ -68,4 +75,15 @@
 .addToCart:hover{
     transform: scale(1.1);
     cursor: pointer;
+    transition: transform 0.1s;
+    font-size: 1rem;
+    color: white;
+    background-color: blue;
+}
+
+@media screen and (max-width: 768px) {
+    .cardData {
+        min-width: 250px;
+        min-height: auto; 
+    }
 }

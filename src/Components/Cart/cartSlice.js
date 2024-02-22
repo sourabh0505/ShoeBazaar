@@ -10,7 +10,6 @@ const initialState = {
 
 export const cartSlice = createSlice({
   name: 'cart',
-//   immer.js
   initialState,
   reducers: {
     addToCart: (state, action) => {
@@ -39,11 +38,12 @@ export const cartSlice = createSlice({
       state.cartAmount = parseInt(cartAmount.toFixed(2));
     },
     removeFromCart: (state, action) => {
-      state.cart = state.cart.filter((cartItems) => cartItems.id !== action.payload);
+      state.cart = state.cart.filter((items) => items.id !== action.payload);
     },
   },
 });
-// action creaters
+
+
 export const { addToCart, getCartTotal, removeFromCart } = cartSlice.actions;
 
 export default cartSlice.reducer;

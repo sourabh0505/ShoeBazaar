@@ -1,52 +1,85 @@
-.SignUp{
+.SignUp {
     text-align: center;
     display: flex;
     flex-flow: column nowrap;
     gap: 4rem;
 }
 
-input{
-    width: 40rem;
-    height: 2rem; 
+.user-info input {
+    min-width: 50%;
+    height: 2rem;
     border-radius: .2rem;
     border: 1px solid black;
-    margin: .5rem;
-} 
-
-.user-info > h2{
-    margin-right: 33rem;
+    margin: .5rem auto;
+    padding: .5rem;
 }
 
-.signup-signin-container{
+.user-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+}
+
+.user-info > h2 {
+    /* background-color: green; */
+    max-width: 10rem;
+    margin-bottom: 0.5rem;
+    margin-left: 23rem;
+}
+
+.signup-signin-container {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    gap: 8rem;
+    gap: 1rem;
 }
 
-.submit > button{
-    margin-top: 1rem;
+.submit,
+.signup-signin-container button {
     min-width: 8rem;
     min-height: 3rem;
     border: none;
     border-radius: .2rem;
-    background-color: violet;
     font-size: 1rem;
 }
 
-.submitBtn{
-    margin-top: 1rem;
-    min-width: 8rem;
-    min-height: 3rem;
-    border: none;
-    border-radius: .2rem;
-    background-color: green;
-    font-size: 1rem;
-}
-
-.submit > .gray{
-    color: #EAEAEA;
+.submit button{
     background-color: #676767;
 }
 
+.submit > .gray{
+    color: white;
+    background-color: indianred;
+}
 
+.submitBtn{
+    background-color: green;
+}
+
+.signup-signin-container button:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .SignUp {
+        gap: 4rem;
+    }
+
+    .user-info > h2 {
+        margin: 0 auto;
+    }
+
+    .signup-signin-container {
+        gap: 2rem;
+    }
+
+    .user-info{
+        margin-top: 0;
+        gap: 0;
+    }
+}
