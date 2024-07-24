@@ -21,7 +21,7 @@
 
 .cartProductImage{
     max-width: 100%;
-    max-height: auto;
+    max-height: 30rem;
     box-shadow: 0 4px 8px rgba(12, 12, 12, 0.5);
     border-radius: .5rem;
 }
@@ -50,7 +50,7 @@
 
 .checkoutBtn{
     min-height: 3rem;
-    background-color: blue;
+    background-color: black;
     border: none;
     border-radius: .5rem;
     color: white;
@@ -74,6 +74,5 @@
 
 .checkoutBtn:hover{
     cursor: pointer;
-    transform: scale(1.1);
-    transition: transform 0.3s ease;
+    background-color: blue;
 }

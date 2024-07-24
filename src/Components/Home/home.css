@@ -38,11 +38,11 @@
     box-shadow: 0 4px 8px rgba(12, 12, 12, 0.5);
 }
 
-.cardImage > img{
+.cardImage img{
     display: block;
     margin: 1.5rem auto;
-    max-width: 90%;
-    min-height: auto;
+    width: 90%;
+    max-height: 25rem;
     border-radius: .5rem;
     transition: transform 0.3s ease;
 }
@@ -68,7 +68,7 @@
     cursor: pointer;
 }
 
-.cardImage > img:hover{
+.cardImage img:hover{
     transform: scale(1.1);
 }
 

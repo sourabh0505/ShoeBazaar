@@ -3,6 +3,7 @@ import './home.css'
 import data from './productInfo.json'
 import {useSelector, useDispatch} from 'react-redux';
 import { addToCart } from '../Cart/cartSlice';
+import {Link} from 'react-router-dom';
 
 function Home () {
 
@@ -32,7 +33,7 @@ function Home () {
           return(
             <div className="cardData" key={cartItems.id}>
               <div className="cardImage">
-              <img src={cartItems.image} alt="/" />
+              <Link to={`/productdetails/${cartItems.id}`}><img src={cartItems.image} alt={cartItems.name} /></Link>
               </div>
 
               <div className="dataCardInfo">

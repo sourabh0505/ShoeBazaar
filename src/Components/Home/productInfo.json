@@ -5,16 +5,18 @@
         "image": "https://shorturl.at/iqvBO",
         "category": "Men's Shoes",
         "price": 150,
-        "quantity": 1
+        "quantity": 1,
+        "description": "After celebrating 20 years of partnership, we wanted to get back to Quai 54 basics: streetball, Paris and Jordan. We cut away the excess to create a shoe that's a sophisticated staple. And what's more of a staple than the always-stylish AJ1?"
     },
 
     {
         "id": 2,
-        "name": "Jumpman MVP",
-        "image": "https://shorturl.at/eGOR0",
+        "name": "Air Jordan 4 Retro 'Industrial Blue'",
+        "image": "https://shorturl.at/yACOv",
         "category": "Men's Shoes",
-        "price": 215,
-        "quantity": 1
+        "price": 310,
+        "quantity": 1,
+        "description": "Step into a classic. This AJ4 throws it back with full-grain leather and premium textiles. Iconic design elements from the original, like floating eyestays and mesh-inspired accents, feel just as fresh as they did in '89."
 
     },
 
@@ -24,7 +26,8 @@
         "image": "https://shorturl.at/BIS02",
         "category": "Men's Shoes",
         "price": 150,
-        "quantity": 1
+        "quantity": 1,
+        "description": "After celebrating 20 years of partnership, we wanted to get back to Quai 54 basics: streetball, Paris and Jordan. We cut away the excess to create a shoe that's a sophisticated staple. And what's more of a staple than the always-stylish AJ1?"
     },
 
     {
@@ -33,7 +36,8 @@
         "image": "https://shorturl.at/mnzT5",
         "category": "Men's Shoes",
         "price": 175,
-        "quantity": 1
+        "quantity": 1,
+        "description": "New colours and fresh textures update this all-time favourite without losing its classic look and familiar feel. Made from premium materials and pumped full of comfortable Nike Air cushioning, it features subtle details that make it a staple sneaker with a modern expression."
     },
 
     {
@@ -42,7 +46,8 @@
         "image": "https://rb.gy/flc8nh",
         "category": "Men's Shoes",
         "price": 225,
-        "quantity": 1
+        "quantity": 1,
+        "description": "The Air Jordan 1 Retro High remakes the classic sneaker, giving you a fresh look with a familiar feel. Premium materials with new colours and textures give modern expression to an all-time favourite."
     },
 
     {
@@ -51,7 +56,8 @@
         "image": "https://rb.gy/px3lyv",
         "category": "Men's Shoes",
         "price": 150,
-        "quantity": 1
+        "quantity": 1,
+        "description": "You gotta know where you've been to know where you're going. We took that to heart when creating the Stay Loyal 3, a modern shoe built on the Air Jordan legacy. Inside and out, they're made for versatility, with minimalist looks, cloud-like cushioning and design elements that echo the AJ4. In other words, style with proven lasting power."
     },
 
     {
@@ -60,7 +66,8 @@
         "image": "https://rb.gy/2zjr6s",
         "category": "Men's Shoes",
         "price": 295,
-        "quantity": 1
+        "quantity": 1,
+        "description": "Celebrating a heritage colorway, this classic honors MJ's legacy while elevating the materials for those pushing culture to new heights. The upper is designed with a mix of premium materials like luxe leather, along with a smooth knit collar. The glossy patent leather mudguard gleams just like the original. A tinted translucent outsole offers a clean finish while the welded gold Jumpman radiates the shoe's championship roots."
     },
 
     {
@@ -69,7 +76,8 @@
         "image": "https://rb.gy/cqrryo",
         "category": "Men's Shoes",
         "price": 185,
-        "quantity": 1
+        "quantity": 1,
+        "description": "Celebrate MJ's legacy with this shout-out to Chicago's 312 area code. With elements from three iconic Jordans (the AJ3, AJ1 and Air Alpha Force), it's a modern mash-up that reps the best."
     },
 
     {
@@ -78,7 +86,8 @@
         "image": "https://rb.gy/hpx1wi",
         "category": "Men's Shoes",
         "price": 190,
-        "quantity": 1
+        "quantity": 1,
+        "description": "Premium suede and Jordan Brand's signature Formula 23 foam come together to give you an extra luxurious (and extra cosy) AJ1. You don't need to play either or when it comes to choosing style or comfort with this one—which is nice, 'cause you deserve both."
     },
 
     {
@@ -87,7 +96,8 @@
         "image": "https://rb.gy/xu5o9j",
         "category": "Men's Shoes",
         "price": 165,
-        "quantity": 1
+        "quantity": 1,
+        "description": "Inspired by the original AJ1, this mid-top edition maintains the iconic look you love while choice colours and crisp leather give it a distinct identity."
     },
 
     {
@@ -96,7 +106,8 @@
         "image": "https://rb.gy/zkyrdi",
         "category": "Men's Shoes",
         "price": 160,
-        "quantity": 1
+        "quantity": 1,
+        "description": "An AJ1 in easy-to-style neutrals? Game over. Smooth leather and soft suede add a premium feel. Plus, Nike Air cushioning helps keep every step comfortable. So, where are you going to take 'em?"
     },
 
     {
@@ -105,6 +116,7 @@
         "image": "https://rb.gy/4zwi8x",
         "category": "Men's Shoes",
         "price": 165,
-        "quantity": 1
+        "quantity": 1,
+        "description": "Inspired by the original AJ1, this mid-top edition maintains the iconic look you love while choice colours and crisp leather give it a distinct identity."
     }
 ]
