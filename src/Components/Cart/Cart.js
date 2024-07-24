@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import "./cart.css";
 import { useSelector, useDispatch } from "react-redux";
 import { getCartTotal, removeFromCart } from "./cartSlice";
+import {motion} from 'framer-motion'
 
 function Cart() {
   const { cart, cartQuantity, cartAmount } = useSelector((state) => state.cart);
@@ -13,9 +14,9 @@ function Cart() {
   }, [cart]);
 
   return (
-    <div className="cartPage">
-      <div className="mappedProductsContainer">
-        {cart &&
+    <motion.div className="cartPage" animate={{ y: 30 }} transition={{ type: "spring", stiffness: 500 }}>
+      {cart.length > 0 ? <div className="mappedProductsContainer">
+        {cart && cart.length > 0 &&
           cart.map((data) => (
             <div className="mappedProducts" key={data.id}>
               <img className="cartProductImage" src={data.image} alt="/" />
@@ -30,7 +31,7 @@ function Cart() {
               </button>
             </div>
           ))}
-      </div>
+      </div> : <div className="emptyCartMessage"><h2>Your cart is empty</h2></div>}
 
       <div className="cartCheckoutDiv">
         <div className="cartProductCount">
@@ -51,7 +52,7 @@ function Cart() {
 
         <button className="checkoutBtn">Checkout</button>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

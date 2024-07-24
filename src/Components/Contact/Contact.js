@@ -1,10 +1,11 @@
 import React from 'react'
 import './contact.css'
 import {Link} from 'react-router-dom'
+import {motion} from 'framer-motion'
 
 function Contact() {
   return (
-    <div className='contactPage'>
+    <motion.div className='contactPage' animate={{ y: 30 }} transition={{ type: "spring", stiffness: 500 }}>
       <h1>GET HELP</h1>
 
       <div className="contactLogo">
@@ -49,7 +50,7 @@ function Contact() {
           <h3>Find Nike retail Stores near you</h3>
         </div>
       </div>
-    </div>
+    </motion.div>
   )
 }
 

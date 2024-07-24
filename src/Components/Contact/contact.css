@@ -1,3 +1,7 @@
+.contactPage {
+    margin-top: -1rem;
+}
+
 .contactPage > h1 {
     text-align: center;
     margin: 2rem 0; 

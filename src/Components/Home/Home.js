@@ -4,6 +4,7 @@ import data from './productInfo.json'
 import {useSelector, useDispatch} from 'react-redux';
 import { addToCart } from '../Cart/cartSlice';
 import {Link} from 'react-router-dom';
+import {motion} from 'framer-motion';
 
 function Home () {
 
@@ -14,7 +15,7 @@ function Home () {
   const [searchTerm, setSearchTerm] = useState('');
   
   return (
-    <div className='home'>
+    <motion.div className='home' animate={{ y: 30 }} transition={{ type: "spring", stiffness: 500 }}>
 
       <div className="searchBar">
         <input placeholder='Search products here...' type="text" onChange={(e) => {setSearchTerm(e.target.value)}} />
@@ -51,7 +52,7 @@ function Home () {
         })
       }
       </div>
-    </div>
+    </motion.div>
   )
 }
 

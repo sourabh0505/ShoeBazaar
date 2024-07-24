@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 import data from "../Home/productInfo.json";
 import { useDispatch } from "react-redux";
 import { addToCart } from "../Cart/cartSlice";
+import {motion} from 'framer-motion'
 
 function ProductDetails() {
   const { id } = useParams();
@@ -12,7 +13,8 @@ function ProductDetails() {
   const dispatch = useDispatch();
 
   return (
-    <div className="productdetails-container">
+    <motion.div className="productdetails-container" animate={{ y: 30 }}
+    transition={{ type: "spring", stiffness: 500 }}>
       <div className="product-image">
         <img src={productItem.image} alt={productItem.name} />
       </div>
@@ -45,7 +47,7 @@ function ProductDetails() {
           <p>{productItem.description}</p>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

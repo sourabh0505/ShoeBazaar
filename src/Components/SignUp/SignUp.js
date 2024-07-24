@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./signup.css";
 import users from "../SignUp/users";
 import {Link} from 'react-router-dom';
+import {motion} from 'framer-motion'
 
 function SignUp({ onSignup, onSignin }) {
   const [action, setAction] = useState("SignIn");
@@ -42,7 +43,7 @@ function SignUp({ onSignup, onSignin }) {
   };
 
   return (
-    <div className="SignUp">
+    <motion.div className="SignUp" animate={{ y: 30 }} transition={{ type: "spring", stiffness: 500 }}>
       <div className="page-info">
         <h1>{action}</h1>
         <h3>New user? {action} Here!</h3>
@@ -97,7 +98,7 @@ function SignUp({ onSignup, onSignin }) {
           </button>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 
